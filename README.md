@@ -1,9 +1,11 @@
 # MiraiMutePlugin
-forked from [JOYACEpoor/miraimuteplugin](https://github.com/JOYACEpoor/miraimuteplugin)
+forked from [JOYACEpoor/miraimuteplugin](https://github.com/JOYACEpoor/miraimuteplugin) modified by [ice-forever](https://github.com/ice-forever)
 
 ## V1.1.4
 
-+ 添加了配置文件的
++ 在配置文件中添加了对刷屏的次数的设置功能
++ 在配置文件中添加了注释内容
++ 本仓库[Releases](https://github.com/ice-forever/MiraiMutePlugin/releases)中插件的配置文件路径为：**.\config\io.github.ice_forever.MiraiMutePlugin\MiraiMutePluginConfig.yml**
 
 **以下为原仓库README文档内容**
 
