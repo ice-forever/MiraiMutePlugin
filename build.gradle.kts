@@ -1,23 +1,20 @@
 plugins {
-    val kotlinVersion = "1.5.30"
+    val kotlinVersion = "1.9.20"
     kotlin("jvm") version kotlinVersion
     kotlin("plugin.serialization") version kotlinVersion
 
-    id("net.mamoe.mirai-console") version "2.9.2"
+    id("net.mamoe.mirai-console") version "2.16.0"
 }
 
-group = "nya.xfy"
-version = "1.1.3"
+group = "io.github.ice_forever"
+version = "1.1.4"
 
 repositories {
+    mavenLocal()
     maven("https://maven.aliyun.com/repository/public")
     mavenCentral()
-    maven {
-        url = uri("https://maven.pkg.jetbrains.space/public/p/ktor/eap")
-        name = "ktor-eap"
-    }
-    maven {
-        url = uri("https://maven.pkg.jetbrains.space/public/p/ktor/eap")
-        name = "ktor-eap"
-    }
+}
+
+mirai {
+    jvmTarget = JavaVersion.VERSION_1_8
 }

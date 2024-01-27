@@ -1,4 +1,14 @@
-# miraimuteplugin
+# MiraiMutePlugin
+forked from [JOYACEpoor/miraimuteplugin](https://github.com/JOYACEpoor/miraimuteplugin)
+
+## V1.1.4
+
++ 添加了配置文件的
+
+**以下为原仓库README文档内容**
+
+------
+
 一个简单的qq群复读禁言插件  使用前记得先给你的bot上管理员
 
 # 新增了配置系统！对应了新增的功能
@@ -14,5 +24,5 @@
     groupList: 
      - 123456
      - 112233
-     
+
 有问题issue|pr is welcome
